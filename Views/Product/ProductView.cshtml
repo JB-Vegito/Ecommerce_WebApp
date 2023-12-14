@@ -1,0 +1,110 @@
+@model Inventory;
+@{
+    ViewData["Title"] = "Product Description";
+}
+<head>
+    <title>@ViewData["Title"] - EcommerceWeb</title>
+    <style>
+        #productImage{
+            border: 1px solid grey;
+        }
+        #image{
+            width:85%;
+            position: center;
+        }
+    </style>
+</head>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-6">
+            <div class="container-fluid py-4" id="productImage">
+                <img id="image" src="@Model.Image">
+            </div>
+        </div>
+        <div class="col-6">
+            <div id="productTitle" class="my-4">
+                <h2>@Model.FullName</h2>
+                <hr class="my-4">
+                <div class="my-5">
+                    <span>
+                        <h1 style="display:inline;"><sup style="font-weight:normal;">₹ &nbsp;</sup><span id="price">@Model.Price</span><h4 style="display:inline;"><sub><i>/- only</i></sub></h4></h1>
+                    </span>                    
+                </div>
+                <div id="available">
+                    <span class="text-success"><i class="bi bi-check2-square"></i></span>&nbsp; Available
+                </div>
+                <div id=notAvailable>
+                    <span class="text-primary"><i class="bi bi-journal-x"></i></span>&nbsp; Out of Stock
+                </div>
+                <hr class="my-4">
+                <div class="my-4 row">
+                    <div class="col-1 mx-2">
+                        <ul style="list-style-type:none;" class="text-info">
+                            <li><h2><i class="bi bi-bookmark-star"></i></h2></li>
+                            <li><p style="font-size:0.7rem; position:center;" class="mt-1" >Good Quality</p></li>
+                        </ul>                        
+                    </div>
+                    <div class="col-1 mx-2">
+                        <ul style="list-style-type:none;" class="text-info">
+                            <li><h2><i class="bi bi-gear-wide-connected"></i></h2></li>
+                            <li><p style="font-size:0.7rem; position:center;" class="mt-1">Reliable Services</p></li>
+                        </ul>                        
+                    </div>
+                    <div class="col-1 mx-2">
+                        <ul style="list-style-type:none;" class="text-info">
+                            <li><h2><i class="bi bi-truck"></i></h2></li>
+                            <li><p style="font-size:0.7rem; text-align:center;" class="mt-1">Free Delivery</p></li>
+                        </ul>                        
+                    </div>    
+                    <div class="col-1 mx-2">
+                        <ul style="list-style-type:none;" class="text-info">
+                            <li><h2><i class="bi bi-currency-rupee"></i></h2></li>
+                            <li><p style="font-size:0.7rem; position:center;" class="mt-1">Best Prices</p></li>
+                        </ul>                        
+                    </div>                                                 
+                </div>
+                <div class="ms-3">
+                    <a asp-area="" asp-controller="Cart" asp-action="CartInsert" asp-route-itemId="@Model.Id" class="col-5" style="text-decoration:none;">
+                        <button id="product_yes" type="submit" class="btn btn-lg py-3 ms-1 btn-danger">Add To Cart &nbsp;<i class="bi bi-cart"></i></button>                        
+                    </a>   
+                    <button id="product_no" type="button" class="btn btn-lg py-3 ms-1 btn-primary" style="display:none;" disabled>Not available &nbsp;<i class="bi bi-cart-x"></i></button>                 
+                </div>
+            </div>
+        </div>
+        <div id="about" class="container-fluid my-5">
+            <h3 class="mb-4">About this item: </h3>
+            <p class="font-weight-light" style="color: grey;">@Html.Raw(@Model.Description)</p>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        window.onload = function(){
+            var available = document.getElementById("available");
+            var notAvailable = document.getElementById("notAvailable");
+            var button1 = document.getElementById("product_yes");
+            var button2 = document.getElementById("product_no");
+            if(@Model.Quantity===0){
+                notAvailable.style.display = "block";
+                available.style.display = "none";
+                button1.style.display = "none";
+                button2.style.display = "block";
+                @* button.innerHTML = "Not Available &nbsp;<i class="bi bi-cart"></i>";
+                button.classList.add("btn-secondary");
+                button.classList.remove("btn-danger");
+                button.disabled=true;*@
+            }
+            else{
+                notAvailable.style.display = "none";
+                available.style.display = "block";                               
+            }
+
+            const price = document.getElementById("price");
+            const productPrice = parseInt(price.textContent);
+            const new_price = productPrice.toLocaleString();
+            price.textContent = new_price;
+        };
+    </script>
+}

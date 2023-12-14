@@ -1,0 +1,8 @@
+@model IEnumerable<Inventory>;
+
+<div>
+    @foreach (var item in Model)
+    {
+        <a asp-area="" asp-controller="Category" asp-action="ProductList" asp-route-productId="@item.Id">@item.Name</a>
+    }
+</div>

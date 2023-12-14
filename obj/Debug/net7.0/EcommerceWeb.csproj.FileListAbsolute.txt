@@ -1,0 +1,8 @@
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.csproj.AssemblyReference.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.AssemblyInfoInputs.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.AssemblyInfo.cs
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.csproj.CoreCompileInputs.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.RazorAssemblyInfo.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\EcommerceWeb.RazorAssemblyInfo.cs

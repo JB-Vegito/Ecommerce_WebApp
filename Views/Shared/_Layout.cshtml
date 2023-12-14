@@ -1,0 +1,114 @@
+﻿@{
+    var Customer = TempData["Session"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EcommerceWeb</title>    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootsWatch.css" />
+    <link rel="stylesheet" href="~/ecommerce_web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <header>
+        <nav id="topBar" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Ecommerce Web App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-between">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="ProductPage" asp-route-categoryType="@null" asp-route-priceRange="@null">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Order" asp-action="UserOrders">My Orders</a>
+                        </li>                        
+                    </ul>
+                    <ul class="navbar-nav " id="LayoutForLogin">                                                
+                        <li class="nav-item">
+                            <div>
+                                <a asp-area="" asp-controller="Login" asp-action="LoginPage">
+                                    <button type="button" class="btn btn-dark ms-4">Login</button>
+                                </a>                                
+                            </div>                            
+                        </li>
+                        <li class="nav-item">
+                            <div>
+                                <a asp-area="" asp-controller="Login" asp-action="Signup">
+                                    <button type="button" class="btn btn-success ms-4 me-4">SignUp</button>
+                                </a>                                
+                            </div>                            
+                        </li>                        
+                    </ul>
+                    <ul class="navbar-nav " id="LayoutForLogout" style="display:none;">                        
+                        <li class="nav-item">
+                            <div class="text-info">Hi &nbsp;@ViewContext.HttpContext.Session.GetString("Customer")!
+                            </div>                            
+                        </li>
+                        <li class="nav-item">
+                            <div>
+                                <a asp-area="" asp-controller="Cart" asp-action="Index">
+                                    <button type="button" class="btn btn-outline-danger ms-4 px-4"><i class="bi bi-cart4"></i></button>
+                                </a>                                
+                            </div>                            
+                        </li>                                                
+                        <li class="nav-item">
+                            <div>
+                                <a asp-area="" asp-controller="Login" asp-action="Logout">
+                                    <button type="button" class="btn btn-primary ms-4">Logout</button>
+                                </a>                                
+                            </div>                            
+                        </li>                       
+                    </ul>                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top bg-dark footer text-muted">
+        <div class="container-fluid">
+            &copy; 2023 - EcommerceWeb - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>&nbsp; <a asp-area="" asp-controller="Category" asp-action="AdminCategoryView">Admin</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="//cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    var status = "@Customer";
+    var loggingIn = document.getElementById("LayoutForLogin");
+    var loggingOut = document.getElementById("LayoutForLogout");
+    if(status != ""){
+        loggingIn.style.display = "none";
+        loggingOut.style.display = "flex";
+        console.log("Session Checked");
+    }
+    else{
+        loggingIn.style.display = "flex";
+        loggingOut.style.display = "none";
+    }
+    console.log(status);
+});        
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

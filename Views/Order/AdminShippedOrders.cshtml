@@ -1,0 +1,78 @@
+@model IEnumerable<OrderDetails>;
+@{
+    ViewData["Title"] = "Admin - Orders";
+    Layout = null;
+}    
+<head>
+    <link rel="stylesheet" href="~/css/bootsWatch.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    @* <link rel="stylesheet" href="~/ecommerce_web.styles.css" asp-append-version="true" /> *@
+    <style>
+        span a{
+            margin-right:2rem;
+        }
+    </style>
+</head>
+<body>
+    <partial name="_AdminNavbar"/>    
+    
+    <div class="container pt-2 pb-5 px-5">
+        <div style="float:right;" class="my-5 mx-5">
+            <button class="btn btn-success btn-lg" onclick="pending()"><i class="bi bi-hourglass-split"></i></button>&nbsp;&nbsp;
+            <button class="btn btn-primary btn-lg" onclick="shipped()"><i class="bi bi-truck"></i></i></button>
+        </div>
+        <hr class="border border-dark border-1 ">
+        <h1 class="mb-2 ms-3 row">Shipped Orders</h1>
+        <hr class="border border-dark border-1 ">
+ 
+        <table class="table table-hover table-bordered">
+            <thead style="padding-bottom:10%">
+                <tr class="table-dark">
+                    <th scope="col">Order ID</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">City</th>
+                    <th scope="col">State</th>
+                    <th scope="col">Pincode</th>
+                    <th scope="col">Final Amount</th>
+                    <th scope="col">Order List</th>
+                    <th scope="col">Shipping Status</th>
+                </tr>            
+            </thead>
+            <tbody>
+                @foreach(var detail in Model){
+                    <tr class="table-secondary">
+                        <td>@detail.OrderId</td>
+                        <td>@detail.Address</td>
+                        <td>@detail.City</td>
+                        <td>@detail.State</td>
+                        <td>@detail.PinCode</td>
+                        <td>₹ &nbsp;<span id="price">@detail.FinalAmount</span></td>
+                        <td style="width:15%; text-align:center; padding:1.2rem;">
+                            <a asp-area="" asp-controller="Order" asp-action="ViewOrderlist" asp-route-order="@detail.OrderId" style="text-decoration:none;">
+                                <button class="btn btn-danger p-2"><i class="bi bi-view-stacked"></i> &nbsp; View Order</button>
+                            </a>                              
+                        </td>
+                        <td>@detail.Shipping</td>              
+                    </tr>
+                }
+            </tbody>
+        </table>     
+    </div>
+</body>
+
+<script>
+    function pending(){
+        window.location.href = "/Order/AdminOrderView";
+    }
+
+    function shipped(){
+        window.location.href = "/Order/AdminShippedOrders";
+    } 
+    window.load = function()    {
+            const price = document.getElementById("price");
+            const productPrice = parseInt(price.textContent);
+            const new_price = productPrice.toLocaleString();
+            price.textContent = new_price;        
+    }    
+</script>

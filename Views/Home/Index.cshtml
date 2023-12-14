@@ -1,0 +1,84 @@
+﻿@*
+Project-Title :  Ecommerce Web Application
+Author: Jasu Brinner
+Created at: 20-02-2023
+Last Modification Date: 06-03-2023
+Reviewed by: Anitha Manogaran
+Reviewed at: 23-02-2023
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <style>
+        #carousel{
+            object-fit: fit;
+            width: 25%;
+        }
+        .center{
+            position: absolute;
+            top:35%;
+            width: 100%;
+            text-align:center;
+        }         
+    </style>
+</head>
+
+<div class="text-center container-fluid p-5 my-5 bg-dark text-white" style="position:center;">
+    <div class="center">
+        <h1 class="display-4">Welcome to the Store.&nbsp;&nbsp;&nbsp;</h1>
+    </div>
+    <div class="container" style="display:flex;">          
+        <img id="carousel" alt="Welcome" src="images/c1.jpg">
+        <img id="carousel" alt="Welcome" src="images/c2.jpg">
+        <img id="carousel" alt="Welcome" src="images/c3.jpg">             
+        <img id="carousel" alt="Welcome" src="images/c4.jpg">
+    </div>
+    @* <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+</div>
+
+<div class="container my-5">
+    <div class="row my-5">
+        <div class="col-sm-6" style="padding-left:16rem;">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="images/webimg1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Camera</h4>
+                    <p class="card-text">Shop the latest camera's here.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6" style="padding-left:5rem;">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="images/webimg2.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Laptop</h4>
+                    <p class="card-text">Shop the latest laptop's here.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <div class="row my-5">
+        <div class="col-sm-4" style="padding-left:3rem;">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="images/webimg3.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Headphone</h4>
+                    <p class="card-text">Shop the latest headphone's here.</p>
+                </div>
+            </div>
+        </div>            
+        <div class="col-sm-4" style="padding-left:6rem;">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="images/webimg0.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Smartphone</h4>
+                    <p class="card-text">Shop the latest smartphone's here.</p>
+                </div>
+            </div>   
+        </div>
+        <div class="col-sm-4" style="position:relative; top:8rem; right:-7rem;"><a href="/Product/ProductPage"><button class="btn btn-lg btn-primary btn-outline-light px-4 py-3">Find More...&nbsp;&nbsp;<i class="bi bi-caret-right-square-fill"></i></button></a></div>
+    </div>
+</div>
+  

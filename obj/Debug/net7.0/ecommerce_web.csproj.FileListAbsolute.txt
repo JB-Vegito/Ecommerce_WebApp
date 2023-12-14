@@ -1,0 +1,247 @@
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\appsettings.json
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\ecommerce_web.staticwebassets.runtime.json
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\ecommerce_web.exe
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\ecommerce_web.deps.json
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\ecommerce_web.runtimeconfig.json
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\ecommerce_web.pdb
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.csproj.AssemblyReference.cache
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.AssemblyInfoInputs.cache
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.AssemblyInfo.cs
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.csproj.CoreCompileInputs.cache
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.RazorAssemblyInfo.cache
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.RazorAssemblyInfo.cs
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.ecommerce_web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.build.ecommerce_web.props
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ecommerce_web.props
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ecommerce_web.props
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\scopedcss\bundle\ecommerce_web.styles.css
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\scopedcss\projectbundle\ecommerce_web.bundle.scp.css
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\refint\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.pdb
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.genruntimeconfig.cache
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ref\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\appsettings.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\ecommerce_web.staticwebassets.runtime.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\ecommerce_web.exe
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\ecommerce_web.deps.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\ecommerce_web.runtimeconfig.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\ecommerce_web.pdb
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.csproj.AssemblyReference.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.AssemblyInfoInputs.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.AssemblyInfo.cs
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.csproj.CoreCompileInputs.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.RazorAssemblyInfo.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.RazorAssemblyInfo.cs
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets\msbuild.ecommerce_web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets\msbuild.build.ecommerce_web.props
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ecommerce_web.props
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ecommerce_web.props
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\scopedcss\bundle\ecommerce_web.styles.css
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\scopedcss\projectbundle\ecommerce_web.bundle.scp.css
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\refint\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.pdb
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.genruntimeconfig.cache
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ref\ecommerce_web.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\obj\Debug\net7.0\ecommerce_web.csproj.CopyComplete
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Humanizer.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jasu.arul\Documents\EcommerceWeb\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Humanizer.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\obj\Debug\net7.0\ecommerce_web.csproj.CopyComplete
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\jasu.arul\Documents\ecommerce_web\bin\Debug\net7.0\RazorPay Core.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.csproj.AssemblyReference.cache
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.AssemblyInfoInputs.cache
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.AssemblyInfo.cs
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.csproj.CoreCompileInputs.cache
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.RazorAssemblyInfo.cache
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.RazorAssemblyInfo.cs
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\refint\ecommerce_web.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.pdb
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\appsettings.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\ecommerce_web.staticwebassets.runtime.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\ecommerce_web.exe
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\ecommerce_web.deps.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\ecommerce_web.runtimeconfig.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\ecommerce_web.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\ecommerce_web.pdb
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\RazorPay Core.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.ecommerce_web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.build.ecommerce_web.props
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ecommerce_web.props
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ecommerce_web.props
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\scopedcss\bundle\ecommerce_web.styles.css
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\scopedcss\projectbundle\ecommerce_web.bundle.scp.css
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.csproj.CopyComplete
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ecommerce_web.genruntimeconfig.cache
+C:\Users\Jasu Brinner\Downloads\Jasu project\ecommerce_web\obj\Debug\net7.0\ref\ecommerce_web.dll

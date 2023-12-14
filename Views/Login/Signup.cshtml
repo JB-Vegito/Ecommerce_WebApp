@@ -1,0 +1,67 @@
+@model Users
+@{
+    var confirmPassword="";
+    ViewData["Title"] = "Signup";
+    Layout=null;
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EcommerceWeb</title>
+    <link rel="stylesheet" href="~/css/bootsWatch.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ecommerce_web.styles.css" asp-append-version="true" />
+</head>
+
+<div class="container mx-5 text-center">
+    <div class="row">
+        <div class="col-sm-4" style="margin-top:3rem; margin-left:9rem">
+            <div class="card py-5 px-5" style="border:dashed solid grey; border-radius: 15px 50px; box-shadow: 5px 10px 18px purple">
+                <h4 class="display-4" style="margin-bottom:3rem">Welcome to the Store.</h4>
+                <h4 class="mb-3">Signup</h4>
+                @using(Html.BeginForm()){
+                    @Html.AntiForgeryToken()
+                    <form method="post">
+                        @Html.ValidationSummary(true,"",new{@class = "text-danger"})                      
+                        <div class="form-outline mb-4">
+                            @Html.EditorFor(model => model.username, new { htmlAttributes = new { @class = "form-control", @placeholder="Enter your username" } })  
+                            @* @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })   *@
+                        </div>
+                        <div class="form-outline mb-4">
+                            @Html.EditorFor(model => model.password, new{ htmlAttributes = new{ @class="form-control", @placeholder="Enter your password", @type="Password"}})
+                            @* @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })   *@
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input name="confirmPassword" type="password" id="registerRepeatPassword" class="form-control" placeholder="Confirm your password"/>
+                        </div> 
+                        <div asp-validation-summary="All" class="text-danger"></div>            
+                        <div class="form-check d-flex justify-content-center mb-4">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked aria-describedby="registerCheckHelpText" />
+                            <label class="form-check-label" for="registerCheck">I have read and agree to the terms</label>
+                        </div>       
+                        <a asp-area="" asp-controller="Login" asp-action="Signup" asp-route-confirmPassword="">
+                            <button type="submit" class="btn btn-primary btn-block mb-3">Register</button>                            
+                        </a>                                                    
+                    </form>
+                }
+        </div>  
+
+        </div>
+        <div class="col-sm-6">
+            <div class="container px-5 py-5" style="margin-left:7rem; margin-top:10rem">
+                <img src = "/images/webimg4.jpg" style="width:100%;height:25rem; border-radius:15px 50px;">
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="mt-5 mb-0 text-center">
+    &copy; 2023 - EcommerceWeb -         
+    @Html.ActionLink("Back to Homepage","Index","Home")  
+  </div>
+
+  @section Scripts{
+  @{
+    <partial name="ValidationScriptsPartial"/>
+  }
+}

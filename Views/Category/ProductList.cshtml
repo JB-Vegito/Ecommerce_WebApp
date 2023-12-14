@@ -1,0 +1,105 @@
+@model IEnumerable<Category>
+
+@{
+    ViewData["Title"] = "Product";
+    @* Layout="/_Layout.cshtml"; *@
+    
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EcommerceWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/sidebar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ecommerce_web.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="sidebar ms-3">
+        <h1 class="mb-4">Categories</h1>
+        @foreach (var item in Model)
+        {
+            <a class="category-link">@item.CategoryName &nbsp; <i class="bi bi-arrow-right-square-fill"></i></a>            
+        }
+    </div>
+    <div class="sidebar" style="margin-left:15%;">
+        <form method="post">
+            <div id="productData"></div>
+        </form>        
+    </div>
+</body>
+
+@section Scripts{
+    <script>
+        $(document).ready(function (){
+            $(".category-link").hover(function(event){
+                event.preventDefault();
+                var hovered_category = $(this).text().trim();
+                $.getJSON("/product/GetAll", function(data){
+                    var smartphone="";
+                    var camera="";
+                    var headphone="";
+                    var laptop="";
+                    
+                    switch(hovered_category){
+                        case "Camera":
+                        camera+="<h1 class='mb-4'>"+" Camera "+"</h1>";
+                        break;
+                        case "Smartphone":
+                        smartphone+="<h1 class='mb-4'>"+" Smartphone "+"</h1>";
+                        break;
+                        case "Headphone":
+                        headphone+="<h1 class='mb-4'>"+" Headphone "+"</h1>";
+                        break;
+                        case "Laptop":
+                        laptop+="<h1 class='mb-4'>"+" Laptop "+"</h1>";
+                        break;
+                    }
+
+                    $.each(data.data,function(){
+                        if(this.category.categoryName === "Camera"){
+                            camera+="<a asp-controller='category' asp-action='productlist' asp-route-id="+this.id+"><button class='btn mx-2'>"+this.name+"</button></a>";
+                         
+                        }
+                        else if(this.category.categoryName === "Smartphone"){
+                            smartphone+="<a asp-controller='Category' asp-action='ProductList' asp-route-pid='"+this.id+"'><button class='btn mx-2'>"+this.name+"</button></a>";                           
+                        }
+                        else if(this.category.categoryName === "Headphone"){
+                            headphone+="<a asp-route-id="+this.id+"><button class='btn mx-2' type='submit'>"+this.name+"</button></a>";
+                        }   
+                        else if(this.category.categoryName === "Laptop"){
+                            laptop+="<a asp-route-id="+this.id+"><button class='btn mx-2' type='submit'>"+this.name+"</button></a>";
+                        }                                             
+                    });
+                    switch(hovered_category){
+                        case "Camera":
+                        $("#productData").html(camera);
+                        break;
+                        case "Smartphone":
+                        $("#productData").html(smartphone);
+                        break;
+                        case "Headphone":
+                        $("#productData").html(headphone);
+                        break;
+                        case "Laptop":
+                        $("#productData").html(laptop);
+                        break;
+                    }
+                });            
+            });
+        });
+    </script>
+
+    <script>
+        function passId(productId){
+            console.log("inside js function")
+            console.log(productId);
+            $.ajax({
+                url:"/category/productlist",
+                type="POST",
+                data:{id:productId},
+                success:
+            });
+        }
+    </script>
+}

@@ -1,0 +1,117 @@
+@model IEnumerable<Inventory>;
+@{
+    ViewData["Title"]="Products";
+    var category="";
+    var priceRange=0;
+    var
+}
+<head>
+    <title>@ViewData["Title"] - EcommerceWeb</title>
+    <style>
+        .card{
+            width:20rem;
+        }
+        #productImage{
+            width: 17rem;
+            height:17rem;
+            @* position: center; *@
+            
+        }
+        #productName{
+            font-size:1.3rem;
+            font-weight: bold;
+        }
+        #productPrice{
+            height:1rem;
+            font-size:1.5rem;
+            font-weight:100;
+        }
+        .card-text{
+            height:4.5rem;
+            width:23rem;
+            @* position: center; *@
+        }
+        .card-buttons{
+            postion:center;
+        }
+</style>
+</head>
+    
+
+<div class="container">
+    <div>
+        <h1 class="">Products</h1>                                  
+    </div>  
+    <div class="container-fluid">
+    <div class="row mb-5">
+        <!-- <div class="col-3" style="margin-left:42rem;">
+            <select id="categorySelect" asp-for="@category" asp-items="ViewBag.CategoryList" class="form-select">
+                <option disabled selected>--Select Category--</option>
+            </select>              
+        </div>
+        <div class="col-2">
+            <select asp-for="@priceRange" class="form-select">
+                <option disabled selected>--Select Price--</option>
+                <option value="1">Low To High</option>
+                <option value="2">High to Low</option>
+            </select>             
+        </div> -->
+    </div>
+    </div> 
+
+    <div class="row mx-5">
+            @foreach(var item in Model)
+            {
+                <div class="col-4">
+                <div class="card mb-3 container-fluid">
+                    <div class="container">
+                        <img id="productImage" src="@item.Image" >
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="row container">
+                            <p class="card-text" id="productName">@item.Name</p>
+                        </div>         
+                        <div class="row container" id="productPrice">
+                            <p class="card-text"><i>₹</i><b id="price"> &nbsp;@item.Price</b></p>
+                        </div>                                       
+                    </div>
+                    <div class="row card-body card-buttons my-2" style="margin:none;">
+                        <span>
+                            <a asp-area="" asp-controller="Product" asp-action="ProductView" asp-route-productId="@item.Id" class="col-5" style="text-decoration:none;">
+                                <button type="button" class="btn btn-info btn-outline-light btn-md py-3 me-1">See more &nbsp;<i class="bi bi-eyeglasses"></i></button>
+                            </a>
+                            <a asp-area="" asp-controller="Cart" asp-action="CartInsert" asp-route-itemId="@item.Id" class="col-5" style="text-decoration:none;">
+                                <button type="submit" class="btn btn-danger btn-outline-light btn-md py-3 ms-1">Add To Cart &nbsp;<i class="bi bi-cart"></i></button>
+                            </a>                            
+                        </span>                        
+                    </div>
+                </div>   
+                </div>
+            }
+        
+    </div>
+</div>
+
+
+@section Scripts{
+    <script>
+        window.onload = function(){
+            const priceElement = document.querySelectorAll("#price");
+            const selectElement = document.getElementById('categorySelect');
+            priceElement.forEach(function(element){
+                const price = parseInt(priceElement.textContent);
+                const new_price = price.toLocaleString();
+                priceElement.textContent = new_price;
+            });
+            selectElement.addEventListener('change',(event)=>{
+                const formElement = event.target.form;
+                formElement.method = "GET";
+                formElement.submit();
+            })
+        };
+        function filter(){
+
+        }
+    </script>
+}

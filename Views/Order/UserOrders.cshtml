@@ -1,0 +1,77 @@
+@using System.Data;
+@model DataSet;
+@{
+    ViewData["Title"] = "Admin - Orders";
+    @* Layout = null; *@
+}    
+<head>
+    <link rel="stylesheet" href="~/css/bootsWatch.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    @* <link rel="stylesheet" href="~/ecommerce_web.styles.css" asp-append-version="true" /> *@
+    <style>
+        span a{
+            margin-right:2rem;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="container pt-2 pb-5 px-5">
+
+        <hr class="border border-dark border-1 ">
+        <h1 class="mb-2 ms-3 row">Your Orders</h1>
+        <hr class="border border-dark border-1 ">
+ 
+        <table class="table table-hover table-bordered">
+            <thead style="padding-bottom:10%">
+                <tr class="table-dark">
+                    <th scope="col">Order ID</th>
+                    <th scope="col">Order Date</th>                    
+                    <th scope="col">Address</th>
+                    <th scope="col">City</th>
+                    <th scope="col">State</th>
+                    <th scope="col">Pincode</th>
+                    <th scope="col">Final Amount</th>
+                    <th scope="col">Order List</th>
+                    <th scope="col">Shipping Status</th>                    
+                </tr>            
+            </thead>
+            <tbody>
+                @foreach(DataRow row in Model.Tables[0].Rows){
+                    <tr class="table-secondary">
+                        <td>@row["OrderId"]</td>  
+                        <td>@row["OrderDate"]</td>                                               
+                        <td>@row["Address"]</td>
+                        <td>@row["City"]</td>
+                        <td>@row["State"]</td>
+                        <td>@row["PinCode"]</td>
+                        <td>₹ &nbsp;<span id="price">@row["FinalAmount"]</span></td>
+                        <td style="width:15%; text-align:center; padding:1.2rem;">
+                            <a asp-area="" asp-controller="Order" asp-action="ViewOrderlist" asp-route-order="@row["OrderId"]" style="text-decoration:none;">
+                                <button class="btn btn-success p-2"><i class="bi bi-view-stacked"></i> &nbsp; View Order</button>
+                            </a>                              
+                        </td>
+                           @{
+                            if(@row["Shipping"].ToString()!="Shipped"){
+                            <td>Not Shipped</td>
+                            }
+                            else{
+                                <td>@row["Shipping"]</td>
+                            }
+                           }                             
+                    </tr>
+                }
+            </tbody>
+        </table>     
+    </div>
+</body>
+
+<script>   
+    window.onload = function()    {
+            const price = document.getElementById("price");
+            const productPrice = parseInt(price.textContent);
+            const new_price = productPrice.toLocaleString();
+            price.textContent = new_price;        
+    }
+</script>
